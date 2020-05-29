@@ -1,0 +1,27 @@
+.tablink {
+    padding: 14px 16px;
+    width: 25%;
+    font-size: 17px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    float: left;
+    color: #ffffff;
+    background-color: #555555;
+}
+
+.tablink:hover {
+    background-color: #777;
+  }
+
+.tabcont {
+    color: #ffffff;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Dhaka{background-color:#0080ffed;}
+#Khulna{background-color:#bf00ff;}
+#Sylhet{background-color:#ffff1a;}
+#Barisal{background-color:#4dc3ff;}

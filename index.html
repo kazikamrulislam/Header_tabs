@@ -50,13 +50,13 @@
         </div>
 
         <div class="tab">
-            <button class="tablink active" onclick="openCity(event, 'Dhaka')">Dhaka</button>
-            <button class="tablink" onclick="openCity(event, 'Khulna')">Khulna</button>
-            <button class="tablink" onclick="openCity(event, 'Sylhet')">Sylhet</button>
-            <button class="tablink" onclick="openCity(event, 'Barisal')">Barisal</button>
+            <button class="tablink active" onclick="openCity('Dhaka', this, '#0080ff')" id="defaultOpen">Dhaka</button>
+            <button class="tablink" onclick="openCity('Khulna', this, '#bf00ff')">Khulna</button>
+            <button class="tablink" onclick="openCity('Sylhet',this, '#ffff1a')">Sylhet</button>
+            <button class="tablink" onclick="openCity('Barisal',this, '#4dc3ff')">Barisal</button>
         </div>
 
-        <script type="text/javascript" src="./js/main.js"></script>
+        <script src="./js/main.js"></script>
     </div>
 </body>
 </html>
