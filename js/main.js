@@ -12,6 +12,8 @@ function openCity(cityName, elmnt, color) {
     }
 
     document.getElementById(cityName).style.display = "block";
-    element.style.backgroundColor = color;
+    elmnt.style.backgroundColor = color;
 
 }
+
+document.getElementById("defaultOpen").click();

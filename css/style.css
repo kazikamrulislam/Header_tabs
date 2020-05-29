@@ -19,9 +19,10 @@
     display: none;
     padding: 50px;
     text-align: center;
+    height: 120px;
 }
 
 #Dhaka{background-color:#0080ffed;}
 #Khulna{background-color:#bf00ff;}
-#Sylhet{background-color:#ffff1a;}
+#Sylhet{background-color:#e6ac00;}
 #Barisal{background-color:#4dc3ff;}
